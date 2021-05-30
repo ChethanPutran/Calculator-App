@@ -12,6 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.mozilla.javascript.Scriptable;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnZero, btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix;
     private Button btnSeven, btnEight, btnNine, btnTen, btnAdd, btnSub;
     private Button btnMul, btnDiv, btnBrac, btnPercent, btnClr, btnEqual, btnDot;
-    private ImageButton btnUndo;
+    private ImageView btnUndo;
     private TextView inputText, resultText;
     private String presentText = "";
     private String result = "";
